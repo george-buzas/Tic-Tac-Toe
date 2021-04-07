@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="tic-tac-toe.css">
+	<title>TIC TAC TOE</title>
+</head>
+<body>
+	<center>
+	  <h1>Tic Tac Toe - X goes first - You can click any of the cells</h1>
+	  <h2>
+	  	<span id="game-over-message"></span>
+	  </h2>
+	  <h3>
+	  	<div>
+	  	  <span id="turn-message"></span>
+	  	</div>
+	  </h3>
+	  <h4>
+	  	<p>
+	  	  <button onclick="resetGame();">Restart</button>
+	  	</p>
+	  </h4>
+	</center>
+	<script src="tic-tac-toe.js"></script>
+	<div class="game-board">
+		  <div class="box" id="one" onclick="firstCell();"></div>
+		  <div class="box" id="two" onclick="secondCell();"></div>
+		  <div class="box" id="three" onclick="thirdCell();"></div>
+		  <div class="box" id="four" onclick="fourthCell();"></div>
+		  <div class="box" id="five" onclick="fifthCell();"></div>
+		  <div class="box" id="six" onclick="sixthCell();"></div>
+		  <div class="box" id="seven" onclick="seventhCell();"></div>
+		  <div class="box" id="eight" onclick="eighthCell();"></div>
+		  <div class="box" id="nine" onclick="ninethCell();"></div>
+	</div>
+</body>
+</html>
